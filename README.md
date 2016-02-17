@@ -1,5 +1,3 @@
-'''
-
 if (( ${rvm_ignore_rvmrc:=0} == 0 ))
   then
     [[ -n "${rvm_stored_umask:-}" ]] || export rvm_stored_umask=$(umask)
@@ -800,5 +798,3 @@ eval_prompt_callback_if_present
 ++++ echo '\e[0;30m\e[47m \e[0;30m\e[47m  \e[0;33m\e[47m   \e[0;31m\e[47m  \e[0;31m\e[47m  \e[0;31m\e[47m  \e[0;30m\e[47m   \e[0;30m\e[47m   \e[0;30m\e[47m   \e[0;31m\e[47m    \e[0;37m\e[41m \e[0;30m\e[41m\e[0;30m\e[41m--   --  (feature/sandbox)  \e[0;30m\e[41m   \e[0;31m\e[40m\e[0m\n\n\[\033[0;31m\]\W\[\033[0m\]\[\033[0m\] '
 +++ echo '\e[0;30m\e[47m \e[0;30m\e[47m  \e[0;33m\e[47m   \e[0;31m\e[47m  \e[0;31m\e[47m  \e[0;31m\e[47m  \e[0;30m\e[47m   \e[0;30m\e[47m   \e[0;30m\e[47m   \e[0;31m\e[47m    \e[0;37m\e[41m \e[0;30m\e[41m\e[0;30m\e[41m--   --  (feature/sandbox)  \e[0;30m\e[41m   \e[0;31m\e[40m\e[0m\n\n\[\033[0;31m\]\W\[\033[0m\]\[\033[0m\] '
 ++ PS1='\e[0;30m\e[47m \e[0;30m\e[47m  \e[0;33m\e[47m   \e[0;31m\e[47m  \e[0;31m\e[47m  \e[0;31m\e[47m  \e[0;30m\e[47m   \e[0;30m\e[47m   \e[0;30m\e[47m   \e[0;31m\e[47m    \e[0;37m\e[41m \e[0;30m\e[41m\e[0;30m\e[41m--   --  (feature/sandbox)  \e[0;30m\e[41m   \e[0;31m\e[40m\e[0m\n\n\[\033[0;31m\]\W\[\033[0m\]\[\033[0m\] '
-
-'''
